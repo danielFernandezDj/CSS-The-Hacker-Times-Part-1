@@ -2,64 +2,154 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
+    padding: 0;
 }
 
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #eee;
-    max-height: auto;
-}
 
 h1 {
     font-family: 'Abril Fatface', Courier, monospace;
-    padding: 0.5em;
-    font-size: 3cap;
+    font-size: 45px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', Courier, monospace;
+    letter-spacing: 0.8px;
 }
 
 p {
-    font-family: 'Roboto Slab', Courier, monospace;
-    text-indent: 5em;
-    margin: 1em;
+    font-family: 'Source Sans Pro', Courier, monospace;
+    text-align: justify;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    text-indent: 20px;
 }
 
-h4 {
-    font-family: 'Abril Fatface', Courier, monospace;
-    color: #dd3232;
-    font-weight: bolder;
-    letter-spacing: -0.3px;
-    
-}
-
-.newspaper-container {
+body {
+    font-family: 'Source Sans Pro', Courier, monospace;
+    max-width: 700px;
     margin: auto;
     text-align: center;
-    background-color: white;
-    width: 700px;
-    height: auto;
+    background-color: #eee;
 }
 
-.box-shadow {
-    box-shadow: 10px 10px #ddd;
+/* ••••••••• Part 1 • Newspaper Container - NAV ••••••••• */
+.newspaper-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: #ddd;
+}
+
+.date {
+    text-align: left;
+    color: #777;
+}
+
+#newspaper-nav-icon {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
-    border-color: #777;
-    border-top: 2px solid #777;
-    border-bottom: 2px solid #777;
-    padding: 0.6em;
-    margin: 1em 0;
+    border-top: 1px solid rgb(113, 113, 113);
+    border-bottom: 1px solid rgb(113, 113, 113);
+    padding: 1px;
 }
 
 nav li {
-    color: #777;
-    list-style-type: none;
-    display: inline;
-    padding: 0.3em;
+
+    letter-spacing: -0.5px;
+    display: flex;
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
-a {
+nav a {
+    font-family: 'Source Sans Pro', Courier, monospace;
     text-decoration: none;
     color: #777;
+    border-color: #777; 
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: black;
+    margin: 0 2px;
+    font-weight: bolder;
+}
+
+/* ••••••••••••• Part 2 • Front Page Article ••••••••••••• */
+#main-front-article {
+    width: 100%;
+    margin: auto;
+}
+
+#main-front-article h2, h4 {
+    text-align: left;
+}
+
+#main-front-article h4 {
+    font-family: 'Abril Fatface', Courier, monospace;
+    color: #dd3232;
+    margin: -15px 0 25px 0;
+}
+
+img {
+    text-align: center;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+hr {
+    margin: 2rem 0 0.5rem 0;
+    border-color: rgba(207, 207, 207, 0.388);
+}
+
+/* ••••••••••••• Part 3 • More Articles ••••••••••••• */
+.more-articles {
+    display: flex;
+    padding: 15px;
+    padding-top: 0px;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+    .more-articles {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        padding-top: 0px;
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #newspaper-nav-icon {
+        display: inline;
+        width: 13%;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+.more-articles h4 {
+    text-align: left;
 }
