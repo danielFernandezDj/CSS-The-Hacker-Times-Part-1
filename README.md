@@ -8,7 +8,7 @@ images, nav, paragraph, #id, class, flexbox and more...
 [https://github.com/danielFernandezDj/CSS-The-Hacker-Times-Part-1.git]
 
 ### Screenshot
-![Alt Text](./assets/image/image-example.png)
+![Alt Text](/assets/FInal%20Proyect.png)
 
 ## I use the resources to get "feedback":
 | • W3schools :   https://www.w3schools.com/
