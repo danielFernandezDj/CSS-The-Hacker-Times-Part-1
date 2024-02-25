@@ -4,8 +4,11 @@
 In this Job we have to demonstrate your abilities creating a newspaper web page with multiple elements like header,
 images, nav, paragraph, #id, class, flexbox and more... 
 
-### Deployment Link :
-[https://danielfernandezdj.github.io/html-3-layouts-recap/](https://danielfernandezdj.github.io/html-3-layouts-recap/)
+### Live Site URL: :
+[https://github.com/danielFernandezDj/CSS-The-Hacker-Times-Part-1.git]
+
+### Screenshot
+![Alt Text](./assets/image/image-example.png)
 
 ## I use the resources to get "feedback":
 | • W3schools :   https://www.w3schools.com/
@@ -16,4 +19,4 @@ images, nav, paragraph, #id, class, flexbox and more...
  • Github :      https://github.com/danielFernandezDj?tab=repositories
 | • Linkedin :    https://www.linkedin.com/in/daniel-fernandez-953432122/
 
-![Alt Text](./assets/image/image-example.png)
+
