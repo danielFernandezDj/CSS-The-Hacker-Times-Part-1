@@ -5,7 +5,7 @@ In this Job we have to demonstrate your abilities creating a newspaper web page 
 images, nav, paragraph, #id, class, flexbox and more... 
 
 ### Live Site URL: 
-#### It's responsive Design too!
+#### • It's responsive Design too!
 [[https://github.com/danielFernandezDj/CSS-The-Hacker-Times-Part-1.git](https://danielfernandezdj.github.io/CSS-The-Hacker-Times-Part-1/)]
 
 ### Screenshot
