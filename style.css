@@ -165,7 +165,7 @@ hr {
     text-align: left;
 }
 
-.imgs-resize  {
+.imgs-resize {
     max-width: 300px;
     max-height: 130px;
     object-fit: cover;
